@@ -78,7 +78,7 @@ nav{
     border-width:5px;  
 }
 
-.home .intro .car{
+/* .home .intro .car{
     height: 512px;
     width: 512px;
     float: right;
@@ -88,7 +88,7 @@ nav{
     position: absolute;
     background-repeat: repeat-x;
     animation: car 5s linear infinite;
-} 
+}  */
 .home .intro .cafe{
     height: 41px;
     width: 220px;
@@ -102,11 +102,11 @@ nav{
     animation: cafe 4s infinite;
     opacity: 0.5;
 }
-@keyframes car{
+/* @keyframes car{
     100%{
         transform: translateX(-3400px);
     }
-}
+} */
 @keyframes cafe{
     0%   {background-color: red;}
   25%  {background-color: blue;}
